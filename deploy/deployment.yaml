@@ -18,7 +18,7 @@ spec:
         app: accounts
     spec:
       containers:
-      - image: us.icr.io/sn-labs-tareq310harh/accounts:1
+      - image: IMAGE_NAME_HERE  # Placeholder for the image name
         name: accounts
         resources: {}
         env:
@@ -39,4 +39,3 @@ spec:
               secretKeyRef:
                 name: postgresql
                 key: database-user
-status: {}
